@@ -38,7 +38,7 @@ var convnetdraw = { REVISION: 'ALPHA' };
                 color
             );
 
-            var text = `${dim0}x${dim1}x${dim2}`;
+            var text = `${title}:${dim0}x${dim1}x${dim2}`;
             var textWidth = this.ctx.measureText(text).width;
             this.ctx.fillStyle = "black";
             this.ctx.fillText(text,
